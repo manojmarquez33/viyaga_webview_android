@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/splash">
+
+    <ImageView
+        android:id="@+id/splash_image"
+        android:layout_width="190dp"
+        android:layout_height="1900dp"
+
+        android:foregroundGravity="center_horizontal"
+        android:layout_centerInParent="true"
+        tools:src="@drawable/app_icon"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="-2dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="VIYAGA Shoppe"
+        android:textColor="#2C1913"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Free Shipping and Easy Returns"
+        android:textColor="#2C1913"
+        android:gravity="center"
+        android:layout_marginTop="360dp"
+        android:textSize="20dp"/>
+
+</RelativeLayout>
